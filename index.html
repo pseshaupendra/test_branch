@@ -7,25 +7,40 @@
         <title> Mini Project </title>
         <link rel="icon" href="icon.png" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
-        <center>
-            <header id="header">
-                <br><br><br>
-                <div id="title">AGRICULTURE :: INNOVATIONS AND SUSTAINABLE PRACTICES</div>
+        <div id="nav-bar">
+            <div id="details" class="nav-divs">
+                <h2 dir="rtl">P. SESHA UPENDRA <br> 22JN5A0514 -- BATCH C9 </h2>
+           </div>
+            <div id="buttons" class="nav-divs">
+                <button onclick="scrollToSection('home')">HOME</button>
+                <button onclick="scrollToSection('abstract')">ABSTRACT</button>
+                <button>CSP ACTIVITY</button>
+                <button>CONTACT</button>
+            </div>
+        </div>
+        <br id="home">
+        <header id="header">
+            <center>
+                <br>
+                <br>
+                <div id="title">AGRICULTURE :: AN INNOVATION AND SUSTAINABLE PRACTICE</div>
                 <div id="head">MINI PROJECT</div>
-                <div id="name" class="blink">P. SESHA UPENDRA &#10045; 22JN5A0514 &#10045; BATCH C9</div>
                 <br>
                 <div class="header-images">
                     <img class="header-image" src="image6.jpg" alt="image6">
                     <img class="header-image" src="image7.jpg" alt="image7">
                     <img class="header-image" src="image8.jpg" alt="image8">
                 </div>
-                <br><br><br>
-            </header>
-        </center>
+            </center>
+            <br><br>
+        </header>
         <section id="content">
+            <br id="abstract">
             <center>
+                <br> <br><br>
                 <h1 class="center-heading">&#9827; ABSTRACT &#9827;</h1>
             </center>
             <br>
@@ -83,14 +98,15 @@
             <br>
             <center>
                 <h2 class="center-heading">&#9827; COMMUNITY SERVICE PROJECT &#9827;</h2> <br>
-                <section>
+                <br>
+                <marquee id="img-scroll" behavior="alternate" direction="left" scrollamount="8">
                     <img class="cotent-images" src="img1.jpg" alt="img1">
-                    <img class="cotent-images" src="img2.jpg" alt="img2">
-                    <img class="cotent-images" src="img3.jpg" alt="img3">
-                    <img class="cotent-images" src="img4.jpg" alt="img4">
                     <img class="cotent-images" src="img9.jpg" alt="img9">
+                    <img class="cotent-images" src="img2.jpg" alt="img2">
                     <img class="cotent-images" src="img10.jpg" alt="img10">
-                </section> <br>
+                    <img class="cotent-images" src="img3.jpg" alt="img3">
+                </marquee>
+                <br>
                 <table>
                     <tr><th id="main" colspan="4">WEEKLY ACTIVITY</th></tr>
                     <tr>
@@ -162,39 +178,43 @@
                 <section>
 
                 </section> <br><br>
-                <section>
+                <marquee id="img-scroll2" behavior="alternate" direction="right" scrollamount="8">
                     <img class="cotent-images" id="bottom" src="img5.jpg" alt="img5">
                     <img class="cotent-images" id="bottom" src="img6.jpg" alt="img6">
                     <img class="cotent-images" id="bottom" src="img7.jpg" alt="img7">
                     <img class="cotent-images" id="bottom" src="img8.jpg" alt="img8">
-                </section>
+                    <img class="cotent-images" id="bottom" src="img11.jpg" alt="img11">
+                    <img class="cotent-images" id="bottom" src="img12.jpg" alt="img12">
+                    
+                </marquee>
             </center>
         </section>
-
-        <footer>
-            <center>
-                <div id="footer">
-                    <p>All rights reserved with SESHA UPENDRA</p> 
-                    <p>:: DEVELOPER CONTACT ::</p>
-                    <div id="links">
-                        <a target="_blank" href="https://www.linkedin.com/in/sesha-upendra-piduru-9a23a8225">
-                            <img src="linkedin.png" alt="Linkedin">
-                        </a>
-                        <a target="_blank" href="https://www.instagram.com/p_sesha_upendra___/">
-                            <img src="instagram.png" alt="Instagram">
-                        </a>
-                        <a target="_blank" href="https://twitter.com/seshaupendra">
-                            <img src="X.png" alt="X">
-                        </a>
-                        <a target="_blank" href="https://github.com/pseshaupendra">
-                            <img src="github.png" alt="Github">
-                        </a>
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100068921200090">
-                            <img src="fb.png" alt="FB">
-                        </a>
+        <section id="contact">
+            <footer>
+                <center>
+                    <div id="footer">
+                        <p>All rights reserved with SESHA UPENDRA</p> 
+                        <p>:: DEVELOPER CONTACT ::</p>
+                        <div id="links">
+                            <a target="_blank" href="https://www.linkedin.com/in/sesha-upendra-piduru-9a23a8225">
+                                <img src="linkedin.png" alt="Linkedin">
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/p_sesha_upendra___/">
+                                <img src="instagram.png" alt="Instagram">
+                            </a>
+                            <a target="_blank" href="https://twitter.com/seshaupendra">
+                                <img src="X.png" alt="X">
+                            </a>
+                            <a target="_blank" href="https://github.com/pseshaupendra">
+                                <img src="github.png" alt="Github">
+                            </a>
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100068921200090">
+                                <img src="fb.png" alt="FB">
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </center>
-        </footer>
+                </center>
+            </footer>    
+        </section>
     </body>
 </html>
